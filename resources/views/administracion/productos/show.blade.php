@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <form  action="{{route('producto.destroy',$model->id)}}" method="POST">
+                    <form  action="{{route('administracion.producto.destroy',$model->id)}}" method="POST">
                         <input type="hidden" name="_method" value="delete">
                         {{ csrf_field() }}
                         <div class="form-group">
